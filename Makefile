@@ -26,6 +26,6 @@ main.exe: main.cpp
 #cleaning options
 .PHONY: clean cleanall
 clean:
-  rm -f $(OBJECTS)
+	rm -f $(OBJECTS)
 cleanall:
-  rm -f $(OBJECTS) && rm -f $(EXECUTABLES)
+	rm -f $(OBJECTS) && rm -f $(EXECUTABLES)
